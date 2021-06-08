@@ -1,10 +1,15 @@
+body {
+    background-color: black;
+}
+
 .allcontainer {
     width: 1100px;
     margin: auto;
+    background-color: blanchedalmond;
 }
 
 .image.container {
-    width: 1050px;
+    width: 1100px;
     height: 200px;
     background-image: url("../img/pattern.png");
     background-size: contain;
@@ -27,8 +32,25 @@
     font-size: 40px;
 }
 
+.sottotitolo, #thebooleaner {
+    font-size: 20px;
+}
+
+.sottotitolo {
+    color: grey;
+}
+
+#thebooleaner {
+    color: #4EA0FF;
+}
+
 .immagini.tim {
     margin-top: 20px;
+}
+
+.yellow {
+    background-color: yellow;
+
 }
 
 ul {
