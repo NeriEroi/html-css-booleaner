@@ -74,7 +74,19 @@ ul {
     margin-top: 30px;
 }
 
-#graph {
+.photo {
+    position: relative;
+}
+
+.lorem-ipsum-dolor {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.photo.container2 {
     margin-top: 10px;
 }
 
