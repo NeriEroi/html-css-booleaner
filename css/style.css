@@ -35,4 +35,16 @@ ul {
     padding-left: 15px;
 }
 
+.row {
+    display: inline-block;
+    width: 30%;
+}
+
+#table {
+    margin-top: 30px;
+}
+
+
+
+
 
