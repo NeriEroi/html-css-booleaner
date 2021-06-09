@@ -2,12 +2,15 @@ body {
     background-color: black;
 }
 
-.allcontainer {
+.all-container {
     width: 1100px;
     margin: auto;
     background-color: blanchedalmond;
     padding: 5px;
 }
+
+
+/* proprietà logo e imamgini di sfondo */
 
 .image.container {
     width: 100%;
@@ -26,6 +29,11 @@ body {
 .title.container img {
     width: 100%;
 }
+
+/* / proprietà logo e imamgini di sfondo */
+
+
+/* proprietà titolo e foto */
 
 #titolo1 {
     font-size: 40px;
@@ -47,6 +55,11 @@ body {
     margin-top: 20px;
 }
 
+/* / proprietà titolo e foto */
+
+
+/* proprietà paragrafo e ul */
+
 .yellow {
     background-color: yellow;
 }
@@ -54,6 +67,11 @@ body {
 ul {
     padding-left: 15px;
 }
+
+/* / proprietà paragrafo e ul */
+
+
+/* proprietà tabella e paragrafo */
 
 table thead tr {
     background-color: rgb(53, 156, 224);
@@ -76,25 +94,42 @@ table {
     margin-top: 30px;
 }
 
-h3 {
+/* / proprietà tabella e paragrafo */
+
+
+/* proprietà immagini e footer */
+
+.footer-container {
+    margin-top: 40px;
+}
+
+footer h3 {
     color: grey;
 }
 
-.photo {
-    position: relative;
+.footer-image1 {
+    width: 312px;
+    height: 208px;
+    background-image: url("../img/monitor.jpg"); 
+    margin-bottom: 20px;
 }
 
-.lorem-ipsum-dolor {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    font-size: 20px;
+.footer-image2 {
+    width: 312px;
+    height: 208px;
+    background-image: url("../img/graph.jpg"); 
+}
+
+.footer-image1, .footer-image2 {
     color: white;
+    font-size: 25px;
 }
 
-.photo.container2 {
-    margin-top: 10px;
+.footer-text {
+    padding: 10px 0 0 10px;
 }
+
+/* / proprietà immagini e footer */
 
 
 
