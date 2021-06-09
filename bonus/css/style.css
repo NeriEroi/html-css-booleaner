@@ -1,0 +1,94 @@
+.image.container {
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/pattern.png");
+    background-size: contain;
+    background-color: #4EA0FF;
+    background-repeat: repeat-x;
+}
+
+.title.container {
+    width: 200px;
+    height: 230px;
+    padding-top: 130px;
+    text-align: center;
+}
+
+.title.container img {
+    width: 100%;
+}
+
+#titolo1 {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+    text-align: center;
+}
+
+.sottotitolo, #thebooleaner {
+    font-size: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: chocolate;
+}
+
+.immagini.tim {
+    margin-top: 20px;
+    text-align: center;
+    background-color: violet;
+}
+
+ul {
+    padding-left: 500px;
+    color: yellow;
+    font-size: 20px;
+    background-color: crimson;
+}
+
+.row {
+    display: inline-block;
+    width: 30%;
+}
+
+.main.row {
+    background-color: #4EA0FF;
+    color:cornsilk;
+}
+
+.first.row, .third.row {
+    background-color: #B1E5F2;
+}
+
+#table {
+    margin-top: 30px;
+}
+
+main section p {
+    color: red;
+    font-size: 30px;
+    background-color: blue;
+}
+
+h3 {
+    color: grey;
+    font-size: 20px;
+    font-family: cursive;
+    color: blue;
+}
+
+.photo {
+    position: relative;
+}
+
+.lorem-ipsum-dolor {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.photo.container2 {
+    margin-top: 10px;
+}
+
