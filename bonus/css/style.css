@@ -1,94 +1,145 @@
+body {
+    background-image: url("../img/logo.svg");
+}
+
+.all-container {
+    width: 1100px;
+    margin: auto;
+    background-color: green;
+    padding: 5px;
+}
+
+p {
+    color: blue;
+    font-size: 20px;
+    background-color: yellow;
+}
+
+#titolo1, .sottotitolo, .under-photo, p, ul, table, h3 {
+    font-family: cursive;
+}
+
+
+/* proprietà logo e imamgini di sfondo */
+
 .image.container {
     width: 100%;
     height: 200px;
     background-image: url("../img/pattern.png");
-    background-size: contain;
+    background-size: 70%;
     background-color: #4EA0FF;
     background-repeat: repeat-x;
 }
 
 .title.container {
     width: 200px;
-    height: 230px;
     padding-top: 130px;
-    text-align: center;
 }
 
 .title.container img {
     width: 100%;
 }
 
+/* / proprietà logo e imamgini di sfondo */
+
+
+/* proprietà titolo e foto */
+
 #titolo1 {
     font-size: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: blue;
-    text-align: center;
+    color: peru;
+    background-color: blue;
 }
 
 .sottotitolo, #thebooleaner {
     font-size: 20px;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: chocolate;
+    background-color: green;
+}
+
+.sottotitolo {
+    color: yellow;
+}
+
+#thebooleaner {
+    color: wheat;
 }
 
 .immagini.tim {
     margin-top: 20px;
-    text-align: center;
-    background-color: violet;
+}
+
+/* / proprietà titolo e foto */
+
+
+/* proprietà paragrafo e ul */
+
+.red {
+    background-color: red;
 }
 
 ul {
-    padding-left: 500px;
-    color: yellow;
-    font-size: 20px;
-    background-color: crimson;
+    padding-left: 15px;
 }
 
-.row {
-    display: inline-block;
+/* / proprietà paragrafo e ul */
+
+
+/* proprietà tabella e paragrafo */
+
+table thead tr {
+    background-color: rgba(255, 0, 0, 0.404);
+    color: white;  
+}
+
+.long {
     width: 30%;
 }
 
-.main.row {
-    background-color: #4EA0FF;
-    color:cornsilk;
+.odd {
+    background-color: rgb(255, 0, 212);
 }
 
-.first.row, .third.row {
-    background-color: #B1E5F2;
+table {
+    border-spacing: 0;   
 }
 
 #table {
     margin-top: 30px;
 }
 
-main section p {
+/* / proprietà tabella e paragrafo */
+
+
+/* proprietà immagini e footer */
+
+.footer-container {
+    margin-top: 40px;
+}
+
+footer h3 {
     color: red;
-    font-size: 30px;
-    background-color: blue;
 }
 
-h3 {
-    color: grey;
-    font-size: 20px;
-    font-family: cursive;
-    color: blue;
+.footer-image1 {
+    width: 312px;
+    height: 208px;
+    background-image: url("../img/monitor.jpg"); 
+    margin-bottom: 20px;
 }
 
-.photo {
-    position: relative;
+.footer-image2 {
+    width: 312px;
+    height: 208px;
+    background-image: url("../img/graph.jpg"); 
 }
 
-.lorem-ipsum-dolor {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    font-size: 20px;
-    color: white;
+.footer-image1, .footer-image2 {
+    color: yellow;
+    font-size: 25px;
 }
 
-.photo.container2 {
-    margin-top: 10px;
+.footer-text {
+    padding: 10px 0 0 10px;
 }
 
+/* / proprietà immagini e footer */

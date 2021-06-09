@@ -9,7 +9,7 @@
 </head>
 <body>
     <!-- logo e immagini di sfondo -->
-    <div class="allcontainer">
+    <div class="all-container">
         <header>
             <div class="image container">
                 <div class="title container">
@@ -34,7 +34,7 @@
                 <div class="immagini tim">
                     <img src="img/tim-1.jpg" alt="tim berners lee">
                     <img src="img/tim-2.jpg" alt="tim berners lee">
-                    <div>1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen <br>
+                    <div class="under-photo">1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen <br>
                     2nd Photo: Wikimedia, by Paul Clarke</div>          
                 </div>
             </section>
@@ -42,75 +42,68 @@
     
              <!-- paragrafo e ul -->
             <section>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <span class="yellow">sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <span class="red">sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 <ul>
                     <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
                     <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure.</li>
                     <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
                 </ul>
-    
             </section>
             <!-- / paragrafo e ul -->
     
             <!-- tabella e paragrafo -->
             <section id="table">
                 
-                    <!-- titoli tabella -->
-                    <div class="main row left"><strong>Lorem ipsum dolor</strong></div>
-                    <div class="main row center"><strong>Lorem ipsum dolor</strong></div>
-                    <div class="main row right"><strong>Lorem ipsum dolor</strong></div>
-                    <!-- / titoli tabella -->
-
-                    <!-- prima riga tabella -->
-                    <div class="first row left">Lorem ipsum dolor</div>
-                    <div class="first row center">Lorem ipsum dolor</div>
-                    <div class="first row right">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-                    <!-- / prima riga -->
-
-                    <!-- seconda riga -->
-                    <div class="row left">Lorem ipsum dolor</div>
-                    <div class="row center">Lorem ipsum dolor</div>
-                    <div class="row right">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-                    <!-- /seconda riga -->
-
-                    <!-- terza riga -->
-                    <div class="third row left">Lorem ipsum dolor</div>
-                    <div class="third row center">Lorem ipsum dolor</div>
-                    <div class="third row right">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-                    <!-- / terza riga -->
+                <table>
+                    <thead>
+                        <tr>
+                            <td><strong>Lorem ipsum dolor</strong></td>
+                            <td><strong>Lorem ipsum dolor</strong></td>
+                            <td><strong>Lorem ipsum dolor</strong></td>
+                        </tr>  
+                    </thead>
+                    <tbody>
+                        <tr class="odd">
+                            <td>Lorem ipsum dolor</td>
+                            <td>Lorem ipsum dolor</td>
+                            <td class="long">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</td>
+                        </tr>
+                        <tr>
+                            <td>Lorem ipsum dolor</td>
+                            <td>Lorem ipsum dolor</td>
+                            <td class="long">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</td>
+                        </tr>
+                        <tr class="odd">
+                            <td>Lorem ipsum dolor</td>
+                            <td>Lorem ipsum dolor</td>
+                            <td class="long">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</td>
+                        </tr>       
+                    </tbody>
+                </table>
 
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        <span class="yellow">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</span> eu fugiat nulla pariatur.
+                        <span class="red">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</span> eu fugiat nulla pariatur.
                         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
+
             </section>
             <!-- / tabella e paragrafo -->
         </main>
     
         <!-- immagini footer -->
         <footer>
-            <h3>Potrebbero interessarti</h3>
-            <div class="photo container1">
-                <img src="img/monitor.jpg" alt="monitor">
-                <div class="lorem-ipsum-dolor">
-                    <strong>Lorem ipsum dolor</strong>
-                </div>
-           
+            
+            <div class="footer-container">
+                <h3>Potrebbero interessarti</h3>
+                <div class="footer-image1"><div class="footer-text"><strong>Lorem ipsum dolor</strong></div></div>
+                <div class="footer-image2"><div class="footer-text"><strong>Lorem ipsum dolor</strong></div></div>
             </div>
-            <div class="photo container2">
-                <img src="img/graph.jpg" alt="graph">
-                <div class="lorem-ipsum-dolor">
-                    <strong>Lorem ipsum dolor</strong>
-                </div>
-            </div> 
+            
         </footer>
         <!-- / immagini footer -->
 
     </div>
-    
-    
-    
 </body>
 </html>
