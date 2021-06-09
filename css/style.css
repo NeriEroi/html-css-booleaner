@@ -13,14 +13,13 @@ body {
     width: 100%;
     height: 200px;
     background-image: url("../img/pattern.png");
-    background-size: contain;
+    background-size: 70%;
     background-color: #4EA0FF;
     background-repeat: repeat-x;
 }
 
 .title.container {
     width: 200px;
-    height: 230px;
     padding-top: 130px;
 }
 
@@ -59,11 +58,12 @@ ul {
 .row {
     display: inline-block;
     width: 30%;
+    
 }
 
 .main.row {
     background-color: #4EA0FF;
-    color:cornsilk;
+    color:cornsilk; 
 }
 
 .first.row, .third.row {
