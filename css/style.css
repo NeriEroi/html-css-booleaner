@@ -57,8 +57,7 @@ ul {
 
 .row {
     display: inline-block;
-    width: 30%;
-    
+    width: 30%;  
 }
 
 .main.row {
@@ -66,8 +65,14 @@ ul {
     color:cornsilk; 
 }
 
+.first.row.right, .row.right, .third.row.right {
+    vertical-align: middle;
+}
+
 .first.row, .third.row {
     background-color: #B1E5F2;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #table {
